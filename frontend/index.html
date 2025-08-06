@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Visual Data Structures Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Visual Data Structures Explorer</h2>
+
+  <select id="structure" onchange="updateDisplay()">
+    <option value="stack">Stack</option>
+    <option value="queue">Queue</option>
+    <option value="linkedlist">Linked List</option>
+    <option value="binarytree">BinarySearchTree</option>
+  </select>
+
+  <input id="inputValue" type="text" placeholder="Enter value" />
+  <button onclick="handleInsert()">Insert</button>
+  <button onclick="handleRemove()">Remove</button>
+
+  <div id="visualArea" class="visual-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
