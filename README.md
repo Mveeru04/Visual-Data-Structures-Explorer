@@ -1,5 +1,4 @@
 Visual Data Structures Explorer
-
  • Developed an interactive web interface to visualize core data structures including Stack, Queue, Linked List 
 and Binary Search Tree
 
